@@ -1,0 +1,60 @@
+{
+    "language": "en",
+    "plugins": [
+        {
+            "name": "@taqueria/plugin-flextesa",
+            "type": "npm"
+        },
+        {
+            "name": "@taqueria/plugin-ligo",
+            "type": "npm"
+        },
+        {
+            "name": "@taqueria/plugin-taquito",
+            "type": "npm"
+        },
+        {
+            "name": "@taqueria/plugin-metadata",
+            "type": "npm"
+        },
+        {
+            "name": "@taqueria/plugin-ipfs-pinata",
+            "type": "npm"
+        }
+    ],
+    "contractsDir": "contracts",
+    "artifactsDir": "artifacts",
+    "network": {},
+    "sandbox": {
+        "local": {
+            "label": "Local Tezos Sandbox",
+            "rpcUrl": "http://localhost:20000",
+            "protocol": "Psithaca2MLRFYargivpo7YvUr7wUDqyxrdhC5CQq78mRvimz6A",
+            "accounts": {
+                "default": "bob"
+            }
+        }
+    },
+    "environment": {
+        "default": "development",
+        "development": {
+            "networks": [],
+            "sandboxes": [
+                "local"
+            ],
+            "storage": {},
+            "aliases": {
+                "id": {
+                    "address": "KT1Vexx8GiRyBAF4tS21FeNeQum2jTTQJn2m"
+                }
+            }
+        }
+    },
+    "accounts": {
+        "bob": "3_000_000_000",
+        "alice": "3_000_000_000",
+        "john": "3_000_000_000",
+        "jane": "3_000_000_000",
+        "joe": "3_000_000_000"
+    }
+}

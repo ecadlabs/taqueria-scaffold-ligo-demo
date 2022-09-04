@@ -1,0 +1,13 @@
+{
+  "name": "id.tz",
+  "version": "v1.0.0",
+  "description": "Identity",
+  "authors": [
+    "JC"
+  ],
+  "homepage": "taqueria.io",
+  "license": "ISC",
+  "interfaces": [
+    "TZIP-016"
+  ]
+}

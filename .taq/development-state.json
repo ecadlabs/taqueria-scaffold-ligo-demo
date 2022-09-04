@@ -1,0 +1,17 @@
+{
+    "operations": {},
+    "tasks": {
+        "@taqueria/plugin-ipfs-pinata.publish.1662249918993": {
+            "task": "publish",
+            "plugin": "@taqueria/plugin-ipfs-pinata",
+            "time": 1662249918994,
+            "output": [
+                {
+                    "?": "✔",
+                    "filePath": "/Users/houstonkrohman/code/moon/ligo_demo/artifacts/id.tz.json",
+                    "ipfsHash": "QmYMrfDTFiFSzJkfzYk3wykUaD1CJKZie13j68464iofxJ"
+                }
+            ]
+        }
+    }
+}
